@@ -1,0 +1,39 @@
+{
+  "name": "gofinances",
+  "license": "0BSD",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo-google-fonts/poppins": "^0.3.1",
+    "@react-native-picker/picker": "^2.11.1",
+    "@react-navigation/bottom-tabs": "^7.4.2",
+    "@react-navigation/native": "^7.1.14",
+    "expo": "~52.0.46",
+    "expo-app-loading": "^2.1.1",
+    "expo-font": "~13.0.4",
+    "expo-modules-autolinking": "^2.1.13",
+    "expo-status-bar": "~2.0.1",
+    "react": "18.3.1",
+    "react-native": "0.76.9",
+    "react-native-gesture-handler": "^2.27.1",
+    "react-native-responsive-fontsize": "^0.5.1",
+    "react-native-safe-area-context": "^5.5.0",
+    "react-native-screens": "^4.11.1",
+    "styled-components": "^6.1.17",
+    "victory-native": "^41.17.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@types/react": "~18.3.12",
+    "@types/react-native": "^0.72.8",
+    "@types/styled-components-react-native": "^5.2.5",
+    "typescript": "^5.8.3"
+  },
+  "private": true
+}
